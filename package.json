@@ -1,0 +1,13 @@
+{
+  "name": "@earshinov/tslint-rules",
+  "version": "1.0.0",
+  "description": "Customized rules for tslint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/earshinov/tslint-rules.git"
+  },
+  "main": "./tslint.json",
+  "peerDependencies": {
+    "tslint": "^5.15.0"
+  }
+}

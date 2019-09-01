@@ -1,0 +1,24 @@
+= @earshinov/tslint-rules
+:nofooter:
+:linkattrs:
+
+Customized rules for https://palantir.github.io/tslint/[tslint^].
+
+== Installation
+
+[subs=+quotes]
+----
+yarn add --dev @earshinov/tslint-rules@earshinov/tslint-rules#_TAG_
+----
+
+== Usage
+
+.tslint.json:
+----
+{
+  "extends": ["@earshinov/tslint-rules"],
+  "rules": {
+    // Additional fules
+  }
+}
+----
